@@ -1,0 +1,35 @@
+appname = mytest
+httpport = 8080
+runmode = dev
+
+#读生产oracle
+db.host = 10.8.64.6
+db.user = goslisoper
+db.password = G33TFNJQQAq=
+db.port = 1521
+db.name = lisprd
+
+#生产MySQL
+#mysqldb.host = 10.7.22.32
+#mysqldb.user = scheduling
+#mysqldb.password = 3VQ7XMnzQHb=
+#mysqldb.port = 3306
+#mysqldb.name = slisbatch
+
+#调度器ob数据库
+mysqldb.host = 10.8.144.60
+mysqldb.user = scheduling@lzhpcl#sunshine_obcluster1
+mysqldb.password = XaLeR4RoEYK=
+mysqldb.port = 2883
+mysqldb.name = slisbatch
+
+#生产redis
+redis.host = 10.7.22.33:6379
+redis.password = &uE6UNF%go
+redis.maxidle = 1000
+redis.maxactive = 1000
+
+
+#并发数
+chan = 200
+
